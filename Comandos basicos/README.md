@@ -2,16 +2,16 @@
 
 ## Navegación
 
-- `cd ..` - Cambiar al directorio padre
+- `cd` - Cambiar de directorio
 - `ls -l -a -h` - Listar archivos con detalles (incluyendo ocultos y tamaños legibles)
 - `pwd` - Mostrar directorio actual
 - `stat` - Información de los inodos
 
 ## Archivos
 
-- `""` - Indica que lo que sigue no es una opción sino un nombre de archivo
-- `ln [-s]` - Crear enlace simbólico (soft)
-  - Hard links: enlaza inodos, hasta no borrar el enlace no se pierde el contenido
+- `--` - Indica que lo que sigue no es una opción sino un nombre de archivo
+- `ln [-s]` - Crear enlace simbólico (soft en caso de agregar -s)
+  - Hard links: Enlaza inodos, hasta no borrar el enlace no se pierde el contenido
   - También copia los permisos
 
 ## Paquetes
@@ -43,8 +43,8 @@
 
 ## Copiar y Mover
 
-- `cp archivo /ruta/` - Copiar archivo
-- `mv archivo destino` - Mover o renombrar
+- `cp nombre_del_archivo /ruta` - Copiar archivo
+- `mv nombre_del_archivo /ruta` - Mover o renombrar
 
 ## Información
 
